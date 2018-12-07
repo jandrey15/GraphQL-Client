@@ -11,6 +11,8 @@ const client = new ApolloClient({
   uri: "/api"
 });
 
+// Curso Graphql -> https://www.howtographql.com/
+
 ReactDOM.render(
   <ApolloProvider client={client}>
     <App />
